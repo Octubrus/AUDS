@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    
+}
+#brand {
+    margin: 0px;
+    height: 35px;
+}
+.navbar-brand {
+    padding: 7px;        
+}
+.navbar {
+    margin: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+#hero {
+    min-height: 846px;
+    background: black;
+    background: url("Images/hero.jpg") center top no-repeat;
+    background-size: cover;
+    text-align: center;     
+}
+.boxDown {
+    margin-top: 25%;
+    position: relative;
+}
+ul#superImp {
+    color: white;
+    list-style: none;
+    text-align: left;  
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vh;  
+}
+a.cta {
+    font-size: 3vh;
+    border: 1px solid white;
+    padding: 1vh 3vh;
+}
+div.buttonDown {
+    margin-top: 28%;
+}
+span.glyphicon-menu-down {
+    position: absolute;
+    top: 810px;
+    margin-left: -10px;
+    color: white;
+    font-size: 25px;
+}
+.yellow {
+    color: yellow;
+}
+#steps {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#steps > h1 {
+    font-size: 10vh;
+    padding-bottom: 30px;
+}
+#steps > h4 {
+    font-size: 3vh;
+}
+.blackCube {
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+.stepCount {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 13%;
+}
+.stepCount > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vh;  
+}
+.stepCount > h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vh;
+    margin-bottom: -3vh;
+    margin-left: -15vh;
+}
+.stepCount > h4 > span {
+    padding: 0vh 2.6vh;
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+}
+#hero2 {
+    min-height: 800px;
+    background: url("Images/12194822_10206334033962132_5576593523011839608_o.jpg") right top no-repeat;
+    background-size: cover;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.yellowCube {
+    background-color: yellow;
+    height: 800px;
+}
+.yellowCube > .cta {
+    border-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vh;
+    color: black;
+}
+.yellowCube > h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vh;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+#hero3 {
+    min-height: 750px;
+    background: url("Images/party.jpg") top left no-repeat;
+    background-size: cover;
+}
+#hero3 > a.cta {
+    display: inline-block;
+    margin-top: 350px;
+}
+.extraText > h4 {
+    position: absolute;
+    right: 7%;
+    margin-top: 140px;
+    font-size: 3vh;
+}
+#hero4 {
+    min-height: 800px;
+    background: url("Images/perform.jpg") center bottom no-repeat;
+    background-size: cover;
+}
+#hero4 > a.cta {
+    display: inline-block;
+    margin-top: 200px;
+}
+#hero5 {
+    min-height: 800px;
+    background: url("Images/11084220_983128281698878_4590858276599177121_o.jpg") center center no-repeat;
+    background-size: cover;
+}
+#hero5 > a.cta {
+    display: inline-block;
+    margin-top: 350px;
+}
