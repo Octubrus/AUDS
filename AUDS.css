@@ -150,24 +150,47 @@ span.glyphicon-menu-down {
 #membership h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 5vmin;
-  top: 205px;
-  position: relative;
+  display: block;
 }
 #right {
   float: right;
   margin-right: -10px;
+  padding-top: 18vmax;
+  padding-bottom: 20vmax;
 }
 #left {
   float: left;
   margin-left: -10px;
+  padding-top: 18vmax;
+  padding-bottom: 20vmax;
 }
-#membershipOne div {
-  height: 500px;
+.yellowSide {
+  background-color: yellow;
 }
 #membership .blackCube {
   z-index: -1;
-  height: 500px;
+  height: 400px;
 }
 #membership .table {
   color: white;
+}
+#membership table {
+  margin-top: 14vh;
+  margin-bottom: 8vh;
+}
+#ourSponsors {
+  height: 30vw;
+}
+#ourSponsors > h2.black {
+  display: inline-block;
+  font-size: 5vw;
+  font-weight: bold;
+  font-stretch: condensed;
+
+  transform: scale(2,3);
+  margin-top: 25.7vw;
+  position: relative;
+}
+.black {
+  color: black;
 }
