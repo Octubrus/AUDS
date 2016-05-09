@@ -18,14 +18,14 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 #hero {
-    min-height: 846px;
+    height: 100vh;
     background: black;
     background: url("Images/hero.jpg") center top no-repeat;
     background-size: cover;
     text-align: center;
 }
 .boxDown {
-    margin-top: 25%;
+    margin-top: 18vw;
     position: relative;
 }
 ul#superImp {
@@ -41,14 +41,14 @@ a.cta {
     padding: 1vh 3vh;
 }
 div.buttonDown {
-    margin-top: 28%;
+  margin-top: 17vw;
 }
 span.glyphicon-menu-down {
-    position: absolute;
-    top: 810px;
-    margin-left: -10px;
-    color: white;
-    font-size: 25px;
+  position: absolute;
+  margin-left: -12px;
+  top: 96vh;
+  color: white;
+  font-size: 25px;
 }
 .yellow {
     color: yellow;
@@ -218,4 +218,46 @@ span.glyphicon-menu-down {
   font-size: 2vw;
   margin-top: -15px;
   margin-left: 2px;
+}
+footer {
+  text-align: center;
+}
+#navMenu {
+  display: inline-block;
+
+}
+#navMenu img {
+  width: 73px;
+  float: left;
+  clear: left;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+#navMenu ul {
+  list-style-type: none;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  margin-top: -5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+#navMenu a {
+  color: white;
+}
+footer > img {
+  display: inline-block;
+  margin-top: -120px;
+
+}
+#audsLogo {
+  margin-left: 35px;
+  margin-right: 90px;
+}
+footer.blackCube{
+  height: 250px;
+}
+footer h6 {
+  color: lightgray;
+  margin-top: 20px;
 }
