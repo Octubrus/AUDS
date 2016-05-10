@@ -71,8 +71,8 @@ span.glyphicon-menu-down {
 }
 .stepCount {
     display: inline-block;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     margin-left: -38vw;
 }
 .stepCount > h1 {
@@ -92,7 +92,7 @@ span.glyphicon-menu-down {
     color: black;
 }
 #hero2 {
-    min-height: 800px;
+    height: 80vh;
     background: url("Images/12194822_10206334033962132_5576593523011839608_o.jpg") right top no-repeat;
     background-size: cover;
     margin-left: -15px;
@@ -100,7 +100,7 @@ span.glyphicon-menu-down {
 }
 .yellowCube {
     background-color: yellow;
-    height: 800px;
+    height: 80vh;
 }
 .yellowCube > .cta {
     border-color: black;
@@ -111,17 +111,17 @@ span.glyphicon-menu-down {
 .yellowCube > h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 3vh;
-    margin-top: 300px;
+    margin-top: 28vh;
     margin-bottom: 100px;
 }
 #hero3 {
-    min-height: 750px;
+    height: 80vh;
     background: url("Images/party.jpg") top left no-repeat;
     background-size: cover;
 }
 #hero3 > a.cta {
     display: inline-block;
-    margin-top: 350px;
+    margin-top: 37vh;
 }
 .extraText > h4 {
     float: right;
@@ -129,25 +129,25 @@ span.glyphicon-menu-down {
     margin-right: 10vw;
     font-size: 3vh;
     font-style: italic;
-    margin-top: -12vw;
+    margin-top: -15.5vh;
 }
 #hero4 {
-    min-height: 800px;
-    background: url("Images/perform.jpg") center bottom no-repeat;
+    min-height: 80vh;
+    background: url("Images/perform.jpg") center center no-repeat;
     background-size: cover;
 }
 #hero4 > a.cta {
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 37vh;
 }
 #hero5 {
-    min-height: 800px;
-    background: url("Images/11084220_983128281698878_4590858276599177121_o.jpg") center center no-repeat;
+    min-height: 100vh;
+    background: url("Images/11084220_983128281698878_4590858276599177121_o.jpg") center bottom no-repeat;
     background-size: cover;
 }
 #hero5 > a.cta {
     display: inline-block;
-    margin-top: 350px;
+    margin-top: 43vh;
 }
 #membership h3 {
   font-family: 'Oswald', sans-serif;
