@@ -22,6 +22,7 @@ body {
   margin-left: 3vh;
 }
 .navbar-nav > li > a:hover {
+  background-color: rgba(0,0,0,0.8);
   color: yellow !important;
 }
 #hero {
@@ -267,4 +268,14 @@ footer.blackCube{
 footer h6 {
   color: lightgray;
   margin-top: 20px;
+}
+
+/*Home page ends here*/
+
+
+
+/*Timetable starts here*/
+
+.accordion-panel {
+  display: none;
 }
