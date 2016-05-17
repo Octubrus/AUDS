@@ -277,6 +277,6 @@ footer h6 {
 
 /*Timetable starts here*/
 
-.accordion-panel {
-  display: none;
+.hot {
+  color: hotpink;
 }
