@@ -15,14 +15,15 @@ body {
 }
 .navbar {
     margin: 0;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.8);
 }
-.navbar-nav > li > a {
+.navbar li {
+  padding-left: 3vh;
+}
+.navbar a {
   color: white !important;
-  margin-left: 3vh;
 }
-.navbar-nav > li > a:hover {
-  background-color: rgba(0,0,0,0.8);
+.navbar a:hover {
   color: yellow !important;
 }
 #hero {
@@ -165,14 +166,14 @@ span.glyphicon-menu-down {
 #right {
   float: right;
   margin-right: -10px;
-  margin-top: 20vh;
-  margin-bottom: 22vh;
+  padding-top: 18vmax;
+  padding-bottom: 20vmax;
 }
 #left {
   float: left;
   margin-left: -10px;
-  margin-top: 20vh;
-  margin-bottom: 22vh;
+  padding-top: 18vmax;
+  padding-bottom: 20vmax;
 }
 .yellowSide {
   background-color: yellow;
@@ -212,20 +213,20 @@ span.glyphicon-menu-down {
   margin-left: 7vw;
   margin-top: 13vw;
   margin-bottom: 10vw;
-  width: 27vw;
+  width: 35vw;
 }
 #bssc {
   margin-top: 10vw;
   margin-bottom: 10vw;
 }
 #bssc h2 {
-  font-size: 6.2vw;
+  font-size: 8.5vw;
   font-weight: bold;
 }
 #bssc h6 {
-  font-size: 1.5vw;
-  margin-top: -3vh;
-  margin-left: 3px;
+  font-size: 2vw;
+  margin-top: -15px;
+  margin-left: 2px;
 }
 footer {
   text-align: center;
@@ -275,3 +276,11 @@ footer h6 {
 
 
 /*Timetable starts here*/
+
+
+div.panel-heading {
+  background-color: black !important;
+}
+h4.panel-title {
+  color: white;
+}
