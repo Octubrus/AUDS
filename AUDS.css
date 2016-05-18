@@ -277,6 +277,13 @@ footer h6 {
 
 /*Timetable starts here*/
 
-.hot {
-  color: hotpink;
+
+div.panel-heading {
+  background-color: black !important;
+}
+h4.panel-title {
+  color: white;
+}
+div.panel-body {
+
 }
