@@ -4,7 +4,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 0;
-
+  font-size: 2.3vh;
 }
 #brand {
     margin: 0px;
@@ -278,9 +278,24 @@ footer h6 {
 /*Timetable starts here*/
 
 
+
+
+h1.oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 8vh;
+  margin: 5vh;
+}
+p.color {
+  display: inline-block;
+  padding: 2px;
+}
+div#accordion {
+  margin-top: 3vh;
+}
 div.panel-heading {
   background-color: black !important;
 }
 h4.panel-title {
   color: white;
+
 }
