@@ -263,8 +263,9 @@ footer > img {
   margin-left: 35px;
   margin-right: 90px;
 }
-footer.blackCube{
-  height: 250px;
+footer.blackCube {
+  height: 300px;
+  padding-top: 50px;
 }
 footer h6 {
   color: lightgray;
@@ -278,27 +279,28 @@ footer h6 {
 /*Timetable starts here*/
 
 
-
-
 h1.oswald {
   font-family: 'Oswald', sans-serif;
   font-size: 8vh;
   margin: 5vh;
 }
-p.color {
+.color {
   display: inline-block;
   padding: 2px;
 }
 div#accordion {
   margin-top: 3vh;
+<<<<<<< HEAD
 
+=======
+  margin-bottom: 7vh;
+>>>>>>> developing
 }
 div.panel-heading {
   background-color: black !important;
 }
 h4.panel-title {
   color: white;
-
 }
 div.panel-group {
   float: none;
@@ -306,6 +308,14 @@ div.panel-group {
   padding-left: 0;
   padding-right: 0;
 }
+<<<<<<< HEAD
 div.panel-body {
 
+=======
+span.bg-primary.color {
+  margin-bottom: 9vh;
+}
+div.noClass {
+  padding: 5vh;
+>>>>>>> developing
 }
