@@ -290,11 +290,7 @@ h1.oswald {
 }
 div#accordion {
   margin-top: 3vh;
-<<<<<<< HEAD
-
-=======
   margin-bottom: 7vh;
->>>>>>> developing
 }
 div.panel-heading {
   background-color: black !important;
@@ -308,14 +304,15 @@ div.panel-group {
   padding-left: 0;
   padding-right: 0;
 }
-<<<<<<< HEAD
-div.panel-body {
-
-=======
-span.bg-primary.color {
+p.facebookCta {
   margin-bottom: 9vh;
 }
 div.noClass {
   padding: 5vh;
->>>>>>> developing
+}
+/*div#timetable {
+  background-image: url("Images/11084220_983128281698878_4590858276599177121_o.jpg");
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0;
 }
