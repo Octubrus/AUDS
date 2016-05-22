@@ -176,13 +176,13 @@ span.glyphicon-menu-down {
   margin-top: 37vh;
 }
 #hero5 {
-  min-height: 100vh;
-  background: url("Images/11084220_983128281698878_4590858276599177121_o.jpg") center bottom no-repeat;
+  min-height: 116vh;
+  background: url("Images/theyMakeAUDS.jpg") center top no-repeat;
   background-size: cover;
 }
 #hero5 > a.cta {
   display: inline-block;
-  margin-top: 43vh;
+  margin-top: 52vh;
 }
 #membership h3 {
   font-family: 'Oswald', sans-serif;
