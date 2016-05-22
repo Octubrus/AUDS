@@ -1,21 +1,22 @@
 body {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding: 0;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 0;
   font-size: 2.3vh;
+  color: black;
 }
 #brand {
-    margin: 0px;
-    height: 35px;
+  margin: 0px;
+  height: 35px;
 }
 .navbar-brand {
-    padding: 7px;
+  padding: 7px;
 }
 .navbar {
-    margin: 0;
-    background-color: rgba(0,0,0,0.8);
+  margin: 0;
+  background-color: rgba(0,0,0,0.8);
 }
 .navbar li {
   padding-left: 3vh;
@@ -27,34 +28,40 @@ body {
   color: yellow !important;
 }
 #hero {
-    height: 100vh;
-    background: black;
-    background: url("Images/hero.jpg") center top no-repeat;
-    background-size: cover;
-    text-align: center;
+  height: 100vh;
+  background: black;
+  background: url("Images/hero.jpg") center top no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 .boxDown {
-    margin-top: 18vw;
-    position: relative;
+  margin-top: 18vw;
+  position: relative;
 }
 ul#superImp {
-    color: white;
-    list-style: none;
-    text-align: left;
-    font-family: 'Oswald', sans-serif;
-    font-size: 10vh;
+  color: white;
+  list-style: none;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10vh;
 }
 a.cta {
-    font-size: 3vh;
-    border: 2px solid yellow;
-    padding: 2vh 5vh;
-    color: white;
-    font-family: 'Oswald', sans-serif;
+  font-size: 3vh;
+  border: 2px solid yellow;
+  padding: 2vh 5vh;
+  color: white;
+  font-weight: bold;
 }
 a.cta:hover {
   border: 2px solid yellow;
   background-color: yellow;
   transition-duration: .6s;
+  color: black;
+  text-decoration: none;
+}
+a.cta:active {
+  border: 2px solid yellow;
+  background-color: yellow;
   color: black;
   text-decoration: none;
 }
@@ -69,103 +76,113 @@ span.glyphicon-menu-down {
   font-size: 25px;
 }
 .yellow {
-    color: yellow;
+  color: yellow;
 }
 #steps {
-    font-family: 'Oswald', sans-serif;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 #steps > h1 {
-    font-size: 10vh;
-    padding-bottom: 30px;
+  font-size: 10vh;
+  padding-bottom: 30px;
 }
 #steps > h4 {
-    font-size: 3vh;
+  font-size: 3vh;
 }
 .blackCube {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 .stepCount {
-    display: inline-block;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    margin-left: -30vw;
+  display: inline-block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: -30vw;
 }
 .stepCount > h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 10vh;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10vh;
 }
 .stepCount > h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 5vh;
-    margin-bottom: -3vh;
-    margin-left: -15vh;
+  font-family: 'Oswald', sans-serif;
+  font-size: 5vh;
+  margin-bottom: -3vh;
+  margin-left: -15vh;
 }
 .stepCount > h4 > span {
-    padding: 0vh 2.6vh;
-    background-color: white;
-    border-radius: 100%;
-    color: black;
+  padding: 0vh 2.6vh;
+  background-color: white;
+  border-radius: 100%;
+  color: black;
 }
 #hero2 {
-    height: 80vh;
-    background: url("Images/12194822_10206334033962132_5576593523011839608_o.jpg") right top no-repeat;
-    background-size: cover;
-    margin-left: -15px;
-    margin-right: -15px;
+  height: 80vh;
+  background: url("Images/12194822_10206334033962132_5576593523011839608_o.jpg") right top no-repeat;
+  background-size: cover;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .yellowCube {
-    background-color: yellow;
-    height: 80vh;
+  background-color: yellow;
+  height: 80vh;
+  text-align: center;
 }
 .yellowCube > .cta {
-    border-color: black;
-    font-family: 'Oswald', sans-serif;
-    font-size: 3vh;
-    color: black;
+  border-color: black;
+  color: black;
+  display: inline-block;
+  padding: 1.5vh 2vh;
+}
+.yellowCube > .cta:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+.yellowCube > .cta:active {
+  background-color: black;
+  color: white;
 }
 .yellowCube > h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 3vh;
-    margin-top: 28vh;
-    margin-bottom: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3vh;
+  margin-top: 28vh;
+  margin-bottom: 100px;
 }
 #hero3 {
-    height: 80vh;
-    background: url("Images/party.jpg") top left no-repeat;
-    background-size: cover;
+  height: 80vh;
+  background: url("Images/party.jpg") top left no-repeat;
+  background-size: cover;
 }
 #hero3 > a.cta {
-    display: inline-block;
-    margin-top: 37vh;
+  display: inline-block;
+  margin-top: 37vh;
 }
 .extraText > h4 {
-    float: right;
-    display: inline-block;
-    margin-right: 10vw;
-    font-size: 3vh;
-    font-style: italic;
-    margin-top: -15.5vh;
+  float: right;
+  display: inline-block;
+  margin-right: 10vw;
+  font-size: 3vh;
+  font-style: italic;
+  margin-top: -15.5vh;
 }
 #hero4 {
-    min-height: 80vh;
-    background: url("Images/perform.jpg") center center no-repeat;
-    background-size: cover;
+  min-height: 80vh;
+  background: url("Images/perform.jpg") center center no-repeat;
+  background-size: cover;
 }
 #hero4 > a.cta {
-    display: inline-block;
-    margin-top: 37vh;
+  display: inline-block;
+  margin-top: 37vh;
 }
 #hero5 {
-    min-height: 100vh;
-    background: url("Images/11084220_983128281698878_4590858276599177121_o.jpg") center bottom no-repeat;
-    background-size: cover;
+  min-height: 100vh;
+  background: url("Images/11084220_983128281698878_4590858276599177121_o.jpg") center bottom no-repeat;
+  background-size: cover;
 }
 #hero5 > a.cta {
-    display: inline-block;
-    margin-top: 43vh;
+  display: inline-block;
+  margin-top: 43vh;
 }
 #membership h3 {
   font-family: 'Oswald', sans-serif;
@@ -287,14 +304,17 @@ footer h6 {
 /*Timetable starts here*/
 
 
+
 h1.oswald {
   font-family: 'Oswald', sans-serif;
   font-size: 8vh;
   margin: 5vh;
+  margin-top: 12vh;
 }
-.color {
+
+p.color {
   display: inline-block;
-  padding: 2px;
+  padding: 1vh;
 }
 div#accordion {
   margin-top: 3vh;
@@ -311,16 +331,22 @@ div.panel-group {
   margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
-}
-p.facebookCta {
-  margin-bottom: 9vh;
+  padding-bottom: 10vh;
 }
 div.noClass {
   padding: 5vh;
 }
-/*div#timetable {
-  background-image: url("Images/11084220_983128281698878_4590858276599177121_o.jpg");
-  background-size: cover;
-  height: 100vh;
-  margin-top: 0;
+div#timetable {
+  background-image: url("Images/ballAll.jpg");
+  background-position: top center;
+  height: 100%;
+  margin: 0;
+  opacity: .6;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 51px;
+  z-index: -1;
+
+
 }
