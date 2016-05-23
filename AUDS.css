@@ -337,7 +337,6 @@ div.panel-group {
 div.noClass {
   padding: 5vh;
 }
-<<<<<<< HEAD
 div#timetable {
   background-image: url("Images/ballAll.jpg");
   background-position: top center;
@@ -349,9 +348,7 @@ div#timetable {
   right: 0;
   top: 51px;
   z-index: -1;
-
-
-=======
+}
 
 
 
@@ -363,5 +360,4 @@ div#timetable {
 
 div#mapAberdeen {
   height: 100%;
->>>>>>> developing
 }
