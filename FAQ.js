@@ -5,3 +5,10 @@ function initMap() {
   zoom: 8
   });
 }
+/*
+https://developers.google.com/maps/documentation/javascript/tutorial#The_Hello_World_of_Google_Maps_v3
+https://snazzymaps.com/style/44798/beaglecat-yellow
+https://snazzymaps.com/style/6570/dark-yellow-map-for-synwars
+https://snazzymaps.com/style/28473/golden
+https://snazzymaps.com/style/30952/modern-style
+*/
