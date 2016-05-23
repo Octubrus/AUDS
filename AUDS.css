@@ -1,9 +1,10 @@
-body {
+html, body {
   background-color: white;
   height: 100%;
   width: 100%;
   text-align: center;
   padding: 0;
+  margin: 0;
   font-size: 2.3vh;
   color: black;
 }
@@ -336,6 +337,7 @@ div.panel-group {
 div.noClass {
   padding: 5vh;
 }
+<<<<<<< HEAD
 div#timetable {
   background-image: url("Images/ballAll.jpg");
   background-position: top center;
@@ -349,4 +351,17 @@ div#timetable {
   z-index: -1;
 
 
+=======
+
+
+
+/*Timetable ends here*/
+
+
+
+/*FAQ starts here*/
+
+div#mapAberdeen {
+  height: 100%;
+>>>>>>> developing
 }
