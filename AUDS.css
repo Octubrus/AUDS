@@ -1,9 +1,10 @@
-body {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding: 0;
+html, body {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
   font-size: 2.3vh;
 }
 #brand {
@@ -309,4 +310,16 @@ span.bg-primary.color {
 }
 div.noClass {
   padding: 5vh;
+}
+
+
+
+/*Timetable ends here*/
+
+
+
+/*FAQ starts here*/
+
+div#mapAberdeen {
+  height: 100%;
 }
