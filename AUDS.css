@@ -389,3 +389,9 @@ div#aboveMap {
 div.FAQ-panel {
   text-align: left;
 }
+div.panel-transparent {
+  background: none;
+}
+div#q3 > div.panel-body {
+  height: 50vh;
+}
