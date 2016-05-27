@@ -28,9 +28,40 @@ function initMap() {
     title:"Hello World!"
   });
 
-  // To add the marker to the map, call setMap();
-  MacRobertMarker.setMap(map);
-  JohnstoneHallMarker.setMap(map);
+    //MacRobert marker info
+  var contentStringMR = '<div>'+
+        '<h5>MacRobert</h5>'+
+        '<p><b>614, 613</b></p>'+
+        '</div>';
+
+    var infowindowMR = new google.maps.InfoWindow({
+      content: contentStringMR
+    });
+
+    //Johnstone Hall marker info
+    var contentStringJH = '<div>'+
+    '<h5>Johnston Hall</h5>'+
+    '<p><b>1st Floor</b></p>'+
+    '</div>';
+
+    var infowindowJH = new google.maps.InfoWindow({
+      content: contentStringJH,
+    });
+
+
+
+  var mapButtons = $("#mapButton");
+
+
+  mapButton.addEventListener("click", function() {
+        // To add the marker to the map, call setMap();
+      MacRobertMarker.setMap(map);
+      JohnstoneHallMarker.setMap(map);
+      infowindowMR.open(map, MacRobertMarker);
+      infowindowJH.open(map, JohnstoneHallMarker);
+    });
+
+
 }
 
 
