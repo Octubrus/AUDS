@@ -7,7 +7,7 @@ function initMap() {
 
   var map = new google.maps.Map(document.getElementById('mapAberdeen'), {
     zoom: 15,
-    center: {lat: 57.166130, lng: -2.098298},  // MacRobert.
+    center: {lat: 57.168521, lng: -2.100263},  // MacRobert.
     disableDefaultUI: true,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
@@ -35,7 +35,7 @@ function initMap() {
         '</div>';
 
     var infowindowMR = new google.maps.InfoWindow({
-      content: contentStringMR
+      content: contentStringMR,
     });
 
     //Johnstone Hall marker info
@@ -54,14 +54,21 @@ function initMap() {
 
 
   mapButton.addEventListener("click", function() {
-        // To add the marker to the map, call setMap();
-      MacRobertMarker.setMap(map);
-      JohnstoneHallMarker.setMap(map);
-      infowindowMR.open(map, MacRobertMarker);
-      infowindowJH.open(map, JohnstoneHallMarker);
-    });
+    // To add the marker to the map, call setMap();
+    MacRobertMarker.setMap(map);
+    JohnstoneHallMarker.setMap(map);
+    infowindowMR.open(map, MacRobertMarker);
+    infowindowJH.open(map, JohnstoneHallMarker);
+    map.setCenter(new google.maps.LatLng(57.168521, -2.100263));
+  });
 
+  //mapClose.addEventListener is undefined :(
+  var mapClose = $(".removeMarker");
 
+  mapClose.addEventListener("click", function() {
+    infowindowMR.close();
+    infowindowJH.close();
+  });
 }
 
 
