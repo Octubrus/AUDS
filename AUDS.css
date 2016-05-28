@@ -384,14 +384,20 @@ div#mapAberdeen {
 }
 div#aboveMap {
   z-index: 1;
-  position: relative
+  position: relative;
 }
 div.FAQ-panel {
   text-align: left;
+  margin-bottom: 0 !important;
 }
+
 div.panel-transparent {
   background: none;
 }
-div#q3 > div.panel-body {
-  height: 60vh;
+div#q10 > div.panel-body {
+  margin-bottom: 60vh;
+}
+div#gap {
+  height: 40vh;
+  display: none;
 }

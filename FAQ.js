@@ -51,7 +51,7 @@ function initMap() {
 
 
   var mapButtons = $("#mapButton");
-
+  var gap = $("div#gap");
 
   mapButton.addEventListener("click", function() {
     // To add the marker to the map, call setMap();
@@ -60,16 +60,18 @@ function initMap() {
     infowindowMR.open(map, MacRobertMarker);
     infowindowJH.open(map, JohnstoneHallMarker);
     map.setCenter(new google.maps.LatLng(57.168521, -2.100263));
+    gap.toggle("slow");
   });
 
-  //mapClose.addEventListener is undefined :(
+
   var mapClose = $(".removeMarker");
 
-  mapClose.addEventListener("click", function() {
+  mapClose.bind("click", function() {
     infowindowMR.close();
     infowindowJH.close();
+    gap.css("display", "none");
   });
-}
+};
 
 
 
