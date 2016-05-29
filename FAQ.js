@@ -57,8 +57,12 @@ function initMap() {
     // To add the marker to the map, call setMap();
     MacRobertMarker.setMap(map);
     JohnstoneHallMarker.setMap(map);
-    infowindowMR.open(map, MacRobertMarker);
-    infowindowJH.open(map, JohnstoneHallMarker);
+    setTimeout(function() {
+      infowindowMR.open(map, MacRobertMarker)
+    }, 600);
+    setTimeout(function() {
+      infowindowJH.open(map, JohnstoneHallMarker)
+    }, 600);
     map.setCenter(new google.maps.LatLng(57.168521, -2.100263));
     gap.toggle("slow");
   });
