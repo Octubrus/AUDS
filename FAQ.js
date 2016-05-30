@@ -34,24 +34,23 @@ function initMap() {
         '<p><b>614, 613</b></p>'+
         '</div>';
 
-    var infowindowMR = new google.maps.InfoWindow({
-      content: contentStringMR,
-    });
+  var infowindowMR = new google.maps.InfoWindow({
+    content: contentStringMR,
+  });
 
-    //Johnstone Hall marker info
-    var contentStringJH = '<div>'+
-    '<h5>Johnston Hall</h5>'+
-    '<p><b>1st Floor</b></p>'+
-    '</div>';
+  //Johnstone Hall marker info
+  var contentStringJH = '<div>'+
+        '<h5>Johnston Hall</h5>'+
+        '<p><b>1st Floor</b></p>'+
+        '</div>';
 
-    var infowindowJH = new google.maps.InfoWindow({
-      content: contentStringJH,
-    });
-
-
+  var infowindowJH = new google.maps.InfoWindow({
+    content: contentStringJH,
+  });
 
   var mapButtons = $("#mapButton");
   var gap = $("div#gap");
+  var mapClose = $(".removeMarker");
 
   mapButton.addEventListener("click", function() {
     // To add the marker to the map, call setMap();
@@ -67,23 +66,9 @@ function initMap() {
     gap.toggle("slow");
   });
 
-
-  var mapClose = $(".removeMarker");
-
   mapClose.bind("click", function() {
     infowindowMR.close();
     infowindowJH.close();
     gap.css("display", "none");
   });
 };
-
-
-
-
-/*
-https://developers.google.com/maps/documentation/javascript/tutorial#The_Hello_World_of_Google_Maps_v3
-https://snazzymaps.com/style/44798/beaglecat-yellow
-https://snazzymaps.com/style/6570/dark-yellow-map-for-synwars
-https://snazzymaps.com/style/28473/golden
-https://snazzymaps.com/style/30952/modern-style
-*/
