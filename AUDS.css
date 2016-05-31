@@ -393,3 +393,6 @@ div#gap {
   height: 55vh;
   display: none;
 }
+li.soon {
+  color: gray;
+}
