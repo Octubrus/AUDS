@@ -396,3 +396,21 @@ div#gap {
 li.soon {
   color: gray;
 }
+
+
+
+/*FAQ ends here*/
+
+
+
+/*Tutors&Committee starts here*/
+
+
+div.card {
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 0;
+}
+div.clear {
+
+}
