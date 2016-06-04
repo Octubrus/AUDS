@@ -328,6 +328,7 @@ div#accordion {
 }
 div.panel-heading {
   background-color: black !important;
+  cursor: pointer;
 }
 h4.panel-title {
   color: white;
