@@ -411,15 +411,25 @@ div.card {
   background-color: yellow;
   border: 2px solid black;
   padding: 0;
-
+  position: relative;
+}
+div.danceFace {
+  position: relative;
+  z-index: 3;
 }
 div.dancePose {
   position: absolute;
+  z-index: 1;
 }
-div.danceFace:hover, img.danceFace:active {
-  opacity: 0;
-}
-div.danceFace {
+div.dancePose > img {
   opacity: 0.5;
-
+}
+div.title {
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  color: white;
+}
+div.danceFace:hover, div.danceFace:active {
+  opacity: 0;
 }
