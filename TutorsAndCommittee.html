@@ -26,14 +26,54 @@
   </script>
 </head>
 <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img id="brand" alt="AUDS" src="Images/AUDSbrand.png">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="Timetable.html">Timetable</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Tutors & Committee</a></li>
+          <!--
+          <li><a href="#">Classes</a></li>
+          -->
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
   <div class="container-fluid">
     <div class="row">
       <div class="card col-xs-6 col-sm-3 col-md-2">
         <div class="dancePose">
           <img class="img-responsive" src="Images/Portraits/Augustinas.jpg">
           <div class="title">
-            <h5>Goda Jarasiunaite</h5>
-            <h4>Vice President</h4>
+            <h4>Johanna Fablen</h4>
+            <h3>Vice President</h3>
+          </div>
+        </div>
+        <div class="danceFace"><img class="img-responsive" src="Images/Portraits/Celine.jpg"></div>
+      </div>
+      <div class="card col-xs-6 col-sm-3 col-md-2">
+        <div class="dancePose">
+          <img class="img-responsive" src="Images/Portraits/Augustinas.jpg">
+          <div class="title">
+            <h4>Goda Jarasiunaite</h4>
+            <h3>Vice President</h3>
           </div>
         </div>
         <div class="danceFace"><img class="img-responsive" src="Images/Portraits/Celine.jpg"></div>
@@ -82,9 +122,24 @@
     </div>
   </div>
 
-  <script>
-    (window.jQuery || document.write('<script src="jquery-2.2.3.min.js"><\/script>'));
-  </script>
-  <script src="TutorsAndCommittee."></script>
-
+  <footer class="blackCube">
+    <div id="navMenu">
+      <a target="_blank" href="https://www.facebook.com/AberdeenUniversityDanceSociety/?fref=ts">
+        <img src="Images/facebook-2-256.png">
+      </a>
+      <a target="_blank" href="https://twitter.com/audancesociety">
+        <img src="Images/twitter-2-256.png">
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Timetable.html">Timetable</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li class="soon">Classes</li>
+        <li><a href="#">Tutors & Committee</a></li>
+      </ul>
+    </div>
+    <img class="hidden-xs" id="audsLogo" src="Images/4606374585_152x154.jpg" alt="AUDS logo">
+    <img class="hidden-xs" id="ausaLogo" src="Images/ausalogo_white_text.png" alt="AUSA logo">
+    <h6>(c) 2016 Aberdeen University Dance Society<h6>
+  </footer>
 </body>
