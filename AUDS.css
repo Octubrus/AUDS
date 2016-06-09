@@ -407,6 +407,10 @@ li.soon {
 /*Tutors&Committee starts here*/
 
 
+div#theyMakeIt {
+  margin-top: 16vh;
+  margin-bottom: 10vh;
+}
 div.card {
   background-color: yellow;
   border: 2px solid black;
@@ -422,7 +426,7 @@ div.dancePose {
   z-index: 1;
 }
 div.dancePose > img {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 div.title {
   position: absolute;
