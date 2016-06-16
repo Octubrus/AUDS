@@ -508,3 +508,37 @@ body.pg-loaded > .inner {
   }
 }
 /*Spinner ends*/
+
+
+/* TutorsAndCommittee ends */
+
+
+
+
+/* Classes start here */
+
+
+
+div#fixedBar {
+  height: 51px;
+  background-color: black;
+  top: 0;
+
+}
+div.sideMenu {
+  float: left;
+  background-color: yellow;
+
+  overflow-y: scroll;
+  height: 95vh;
+}
+ul#classList {
+  display: block;
+
+}
+div.sideContent {
+  float: right;
+  height: 95vh;
+  background-image: url("Images/hero.jpg");
+  background-size: cover;
+}
