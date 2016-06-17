@@ -538,8 +538,6 @@ ul#classList {
 div.sideContent {
   float: right;
   height: 95vh;
-  background-image: url("Images/hero.jpg");
-  background-size: cover;
 }
 li.classButton {
   width: 90%;
@@ -550,13 +548,14 @@ li.classButton {
   display: inline-block;
   list-style-type: none;
   color: white;
+
 }
 .pink {
   background-color: pink !important;
 }
-div#theClass {
-  background-image: url("Images/party.jpg");
+div.classContainer {
   background-size: cover;
-  margin: 0;
+  width: 1000px;
   height: 100%;
+  position: absolute;
 }
