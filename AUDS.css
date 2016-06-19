@@ -551,21 +551,30 @@ li.classButton {
   cursor: pointer;
   display: inline-block;
   list-style-type: none;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2.2vh;
   color: black;
   font-style: italic;
+  font-weight: bold;
+  border-top-color: white;
+  border-right-color: black;
+  border-bottom-color: white;
+  border-left-color: white;
+
+  text-align: right;
+
 }
 li.classButton:hover {
-  border: 1px solid yellow;
+  border-right-color: yellow;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 40%, yellow);
 }
 li.classButton:active {
-  background-color: yellow;
+
 }
 .clicked {
-  background-color: yellow !important;
-  color: black !important;
+  border-right-color: yellow !important;
 }
+
 div.sideContent {
   float: right;
   height: 95vh;
@@ -574,6 +583,7 @@ div.sideContent {
 }
 div.classContainer {
   background-size: cover;
+  background-position: bottom center;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -584,21 +594,31 @@ div#overlay {
   width: 100%;
   height: 100%;
   position: absolute;
-  /*background: linear-gradient(90deg, white, rgba(0,0,0,0));*/
+  background: linear-gradient(90deg, white, rgba(0,0,0,0));
   z-index: 1;
-  background-color: white;
-  opacity: 0.6;
 
 }
 div.classContent {
-  width: 60%;
-  top: 25%;
+  width: 27%;
+  top: 7%;
   position: relative;
   display: inline-block;
   z-index: 2;
-  line-height: 2;
-  /*float: left;
-  margin-left: 3%;*/
+  line-height: 1.7;
+  float: left;
+  margin-left: 3%;
   color: black;
+  font-size: 2.2vh;
+}
+div.classContent > h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 4vh;
+}
+div.classContent > p {
+  text-align: justify;
+}
+div.classContent > h5 {
+  margin-top: 5vh;
+  float: left;
   font-weight: bold;
 }
