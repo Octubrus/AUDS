@@ -540,19 +540,24 @@ ul#classList {
   margin-bottom: 7vh;
   padding: 0 !important;
 }
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
 li.classButton {
   width: 100%;
-  padding: 8px;
+  padding: 7px;
   margin: 5px;
   cursor: pointer;
   display: inline-block;
   list-style-type: none;
-  border: 2px solid black;
-  font-family: 'Oswald', sans-serif;
-  font-size: 3vh;
+  border: 1px solid black;
+  font-size: 2.2vh;
+  color: black;
+  font-style: italic;
 }
 li.classButton:hover {
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
 li.classButton:active {
   background-color: yellow;
@@ -572,4 +577,28 @@ div.classContainer {
   width: 100%;
   height: 100%;
   position: absolute;
+
+}
+div#overlay {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*background: linear-gradient(90deg, white, rgba(0,0,0,0));*/
+  z-index: 1;
+  background-color: white;
+  opacity: 0.6;
+
+}
+div.classContent {
+  width: 60%;
+  top: 25%;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  line-height: 2;
+  /*float: left;
+  margin-left: 3%;*/
+  color: black;
+  font-weight: bold;
 }
