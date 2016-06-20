@@ -3,6 +3,16 @@ $( document ).ready(function() {
   var classContainer = $('div.classContainer');
   var classList = $('ul#classList');
 
+  classContainer.hide();
+
+  function displayRandomClass() {
+    var randomNumber = Math.floor(Math.random() * 20);
+    $('div.classContainer:eq('+randomNumber+')').show();
+    $('li.classButton:eq('+randomNumber+')').addClass('clicked');
+  }
+
+  displayRandomClass();
+
   classList.on('click', 'li', function() {
     classButtons.removeClass('clicked');
     var $this = $(this);
