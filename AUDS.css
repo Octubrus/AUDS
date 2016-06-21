@@ -612,7 +612,7 @@ div#overlay {
 }
 div.classContent {
   width: 27%;
-  top: 14%;
+  top: 10%;
   position: relative;
   display: inline-block;
   z-index: 2;
@@ -625,6 +625,7 @@ div.classContent {
 div.classContent > h3 {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 4vh;
+  font-size: 3.5vh;
 }
 div.classContent > p {
   text-align: justify;
@@ -633,7 +634,28 @@ div.classContent > h5 {
   margin-top: 5vh;
   float: left;
   font-weight: bold;
+  font-size: 2.2vh;
 }
 div.top {
   background-position: top right;
+}
+
+div.classContentMobile {
+  width: 70% !important;
+
+}
+div.backgroundPositionMobile {
+  background-position: center;
+}
+div.backgroundOpacity {
+  background-color: white !important;
+  opacity: 0.7;
+}
+div.glyphicon.exitButton {
+  top: 76px;
+  right: 25px;
+  font-size: 7vh;
+  z-index: 3;
+  position: absolute;
+
 }
