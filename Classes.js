@@ -63,7 +63,5 @@ $( document ).ready(function() {
       exitButton.hide();
 
     });
-
   }
-
 });

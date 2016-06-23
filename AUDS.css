@@ -264,7 +264,6 @@ footer {
 }
 #navMenu {
   display: inline-block;
-
 }
 #navMenu img {
   width: 73px;
@@ -288,7 +287,6 @@ footer {
 footer > img {
   display: inline-block;
   margin-top: -120px;
-
 }
 #audsLogo {
   margin-left: 35px;
@@ -306,10 +304,7 @@ footer h6 {
 /*Home page ends here*/
 
 
-
 /*Timetable starts here*/
-
-
 
 h1.oswald {
   font-family: 'Oswald', sans-serif;
@@ -317,7 +312,6 @@ h1.oswald {
   margin: 5vh;
   margin-top: 12vh;
 }
-
 p.color {
   display: inline-block;
   padding: 1vh;
@@ -359,15 +353,10 @@ div#timetable {
   z-index: -1;
 }
 
-
-
 /*Timetable ends here*/
 
 
-
 /*FAQ starts here*/
-
-
 
 div#mapContainer {
   width: 100%;
@@ -398,14 +387,10 @@ li.soon {
   color: gray;
 }
 
-
-
 /*FAQ ends here*/
 
 
-
 /*Tutors&Committee starts here*/
-
 
 div#theyMakeIt {
   margin-top: 16vh;
@@ -459,8 +444,6 @@ body.pg-loaded > .inner {
   display: block;
 }
 
-
-
 /* Spinner starts*/
 .spinner {
   margin: 100px auto;
@@ -468,7 +451,6 @@ body.pg-loaded > .inner {
   height: 40px;
   position: relative;
 }
-
 .cube1, .cube2 {
   background-color: #333;
   width: 15px;
@@ -480,19 +462,16 @@ body.pg-loaded > .inner {
   -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
   animation: sk-cubemove 1.8s infinite ease-in-out;
 }
-
 .cube2 {
   -webkit-animation-delay: -0.9s;
   animation-delay: -0.9s;
 }
-
 @-webkit-keyframes sk-cubemove {
   25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
   50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
   75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
   100% { -webkit-transform: rotate(-360deg) }
 }
-
 @keyframes sk-cubemove {
   25% {
     transform: translateX(42px) rotate(-90deg) scale(0.5);
@@ -511,17 +490,13 @@ body.pg-loaded > .inner {
     -webkit-transform: rotate(-360deg);
   }
 }
-/*Spinner ends*/
 
+/*Spinner ends*/
 
 /* TutorsAndCommittee ends */
 
 
-
-
 /* Classes start here */
-
-
 
 div#fixedBar {
   height: 51px;
@@ -544,7 +519,6 @@ ul#classList {
   margin-bottom: 7vh;
   margin-left: 5vh;
   padding: 0 !important;
-
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
@@ -553,7 +527,7 @@ ul#classList {
 li.classButton {
   width: 100%;
   padding: 7px;
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
   display: inline-block;
   list-style-type: none;
@@ -567,7 +541,6 @@ li.classButton {
   border-bottom-color: white;
   border-left-color: black;
   text-align: left;
-
 }
 li.classButton:hover {
   border-left-color: yellow;
@@ -576,13 +549,9 @@ li.classButton:hover {
   background: -moz-linear-gradient(240deg, rgba(0,0,0,0) 40%, yellow); /* For Firefox 3.6 to 15 */
   background: linear-gradient(240deg, rgba(0,0,0,0) 40%, yellow);
 }
-li.classButton:active {
-
-}
 .clicked {
   border-left-color: yellow !important;
 }
-
 div.sideContent {
   float: right;
   height: 100vh;
@@ -596,7 +565,6 @@ div.classContainer {
   width: 100%;
   height: 100%;
   position: absolute;
-
 }
 div#overlay {
   background-size: cover;
@@ -608,11 +576,10 @@ div#overlay {
   background: -moz-linear-gradient(90deg, white, rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(90deg, white, rgba(0,0,0,0));
   z-index: 1;
-
 }
 div.classContent {
-  width: 27%;
-  top: 10%;
+  width: 29%;
+  top: 11vh;
   position: relative;
   display: inline-block;
   z-index: 2;
@@ -631,18 +598,25 @@ div.classContent > p {
   text-align: justify;
 }
 div.classContent > h5 {
-  margin-top: 5vh;
-  float: left;
   font-weight: bold;
   font-size: 2.2vh;
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: left;
 }
 div.top {
   background-position: top right;
 }
-
+a.classGroup {
+  display: block;
+  font-size: 2.2vh;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
 div.classContentMobile {
   width: 70% !important;
-
 }
 div.backgroundPositionMobile {
   background-position: center;
@@ -657,5 +631,4 @@ div.glyphicon.exitButton {
   font-size: 7vh;
   z-index: 3;
   position: absolute;
-
 }
