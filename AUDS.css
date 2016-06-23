@@ -578,7 +578,7 @@ div#overlay {
   z-index: 1;
 }
 div.classContent {
-  width: 29%;
+  width: 30%;
   top: 11vh;
   position: relative;
   display: inline-block;
@@ -612,11 +612,14 @@ a.classGroup {
   display: block;
   font-size: 2.2vh;
   float: right;
-  margin-top: 0;
+  margin-top: 1vh;
   margin-bottom: 2vh;
 }
+.menuMobile {
+  font-size: 3.5vh !important;
+}
 div.classContentMobile {
-  width: 70% !important;
+  width: 80% !important;
 }
 div.backgroundPositionMobile {
   background-position: center;

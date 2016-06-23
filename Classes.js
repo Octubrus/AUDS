@@ -32,6 +32,7 @@ $( document ).ready(function() {
   var isMobile = window.matchMedia("only screen and (max-width: 760px)");
 
   if (isMobile.matches) {
+    classButtons.addClass('menuMobile');
     classList.on('click', 'li', function() {
       classButtons.removeClass('clicked');
       var $this = $(this);
